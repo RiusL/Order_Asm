@@ -1,0 +1,11 @@
+{
+  "name": "ServerOderFood",
+  "version": "0.0.1",
+  "private": "true",
+  "dependencies": {
+    "express": "*",
+    "mysql": "^2.15.0",
+    "socket.io": "*",
+    "socketio-file-upload": "^0.4.4"
+  }
+}
