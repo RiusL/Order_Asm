@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:padding="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/shawdow"
+    android:layout_height="350dp">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        style="?android:attr/textAppearanceMedium"
+        android:text="THỰC ĐƠN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ListView
+        android:divider="#ffffff"
+        android:dividerHeight="5dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/lvItemDialogHistoryBill"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+</LinearLayout>

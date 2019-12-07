@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:padding="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:textSize="25sp"
+                style="?android:attr/textAppearanceLarge"
+                android:drawableLeft="@drawable/small_logo"
+                android:text="THÊM NHÂN VIÊN"
+                android:textColor="#ffffff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:layout_marginTop="10dp"
+                android:id="@+id/edtIdStaffAddStaff"
+                android:background="@drawable/background_edt"
+                android:textColorHint="#ffffff"
+                android:textColor="#ffffff"
+                android:gravity="center"
+                android:hint="Mã nhân viên"
+                android:padding="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:layout_marginTop="20dp"
+                android:id="@+id/edtNameStaffAddStaff"
+                android:background="@drawable/background_edt"
+                android:textColorHint="#ffffff"
+                android:textColor="#ffffff"
+                android:gravity="center"
+                android:hint="Tên nhân viên"
+                android:padding="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RadioGroup
+                    android:id="@+id/groupSex"
+                    android:gravity="center_horizontal"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <RadioButton
+                        android:buttonTint="#ffffff"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Nam"
+                        android:textColor="#ffffff"
+                        android:id="@+id/radioButton_male_AddStaff"
+                        android:checked="true" />
+
+                    <RadioButton
+                        android:buttonTint="#ffffff"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Nữ"
+                        android:textColor="#ffffff"
+                        android:id="@+id/radioButton_female_AddStaff"
+                        android:checked="false" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnChooseDateOfBirthAddStaff"
+                android:textColor="@color/btn"
+                android:background="@drawable/background_btn_login"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:padding="15dp"
+                android:text="Ngày sinh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:layout_marginTop="20dp"
+                android:id="@+id/edtAddressStaffAddStaff"
+                android:background="@drawable/background_edt"
+                android:textColorHint="#ffffff"
+                android:textColor="#ffffff"
+                android:gravity="center"
+                android:hint="Quê quán"
+                android:padding="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:layout_marginTop="20dp"
+                android:id="@+id/edtPhoneStaffAddStaff"
+                android:background="@drawable/background_edt"
+                android:textColorHint="#ffffff"
+                android:textColor="#ffffff"
+                android:gravity="center"
+                android:hint="Số điện thoại"
+                android:inputType="number"
+                android:padding="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RadioGroup
+                    android:id="@+id/groupPosition"
+                    android:gravity="center_horizontal"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <RadioButton
+                        android:buttonTint="#ffffff"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="QL"
+                        android:textColor="#ffffff"
+                        android:id="@+id/radioButton_QL_AddStaff"
+                        android:checked="true" />
+
+                    <RadioButton
+                        android:buttonTint="#ffffff"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="BB"
+                        android:textColor="#ffffff"
+                        android:id="@+id/radioButton_BB_AddStaff"
+                        android:checked="false" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnChooseDateStartAddStaff"
+                android:textColor="@color/btn"
+                android:background="@drawable/background_btn_login"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:padding="15dp"
+                android:text="Ngày vào"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:layout_marginTop="20dp"
+                android:id="@+id/edtSalaryStaffAddStaff"
+                android:background="@drawable/background_edt"
+                android:textColorHint="#ffffff"
+                android:textColor="#ffffff"
+                android:gravity="center"
+                android:hint="Lương"
+                android:padding="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:layout_marginTop="20dp"
+                android:id="@+id/edtUserStaffAddStaff"
+                android:background="@drawable/background_edt"
+                android:textColorHint="#ffffff"
+                android:textColor="#ffffff"
+                android:gravity="center"
+                android:hint="Tên tài khoản"
+                android:padding="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:layout_marginTop="20dp"
+                android:id="@+id/edtPassStaffAddStaff"
+                android:background="@drawable/background_edt"
+                android:textColorHint="#ffffff"
+                android:textColor="#ffffff"
+                android:gravity="center"
+                android:hint="Mật khẩu"
+                android:inputType="textPassword"
+                android:padding="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btnChooseAvatarAddStaff"
+                android:textColor="@color/btn"
+                android:background="@drawable/background_btn_login"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:padding="15dp"
+                android:text="Thêm ảnh đại diện"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:id="@+id/imAvatarAddStaff"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+
+            <LinearLayout
+                android:padding="10dp"
+                android:weightSum="2"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+                    <Button
+                        android:id="@+id/btnDoneAddStaff"
+                        android:textColor="@color/btn"
+                        android:background="@drawable/background_btn_login"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:padding="15dp"
+                        android:text="Xong"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+                    <Button
+                        android:id="@+id/btnExitAddStaff"
+                        android:textColor="@color/btn"
+                        android:background="@drawable/background_btn_login"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:padding="15dp"
+                        android:text="Thoát"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

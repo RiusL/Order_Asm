@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context="com.example.quang.orderfood.activities.LoginActivity">
+
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/edtUser"
+            android:background="@drawable/background_edt"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+            android:layout_marginTop="100dp"
+            android:gravity="center"
+            android:hint="Tài khoản"
+            android:padding="15dp"
+            android:inputType="text"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/edtPass"
+        android:background="@drawable/background_edt"
+        android:textColorHint="#ffffff"
+        android:textColor="#ffffff"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:hint="Mật khẩu"
+        android:padding="15dp"
+        android:inputType="textPassword"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:textColor="@color/btn"
+        android:background="@drawable/background_btn_login"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="15dp"
+        android:text="Đăng nhập"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>

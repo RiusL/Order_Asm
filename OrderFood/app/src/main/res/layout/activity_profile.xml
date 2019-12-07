@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#10000000"
+    tools:context="com.example.quang.orderfood.activities.ProfileActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="230dp">
+            <LinearLayout
+                android:gravity="center"
+                android:background="@drawable/background"
+                android:layout_width="match_parent"
+                android:layout_height="180dp">
+                <ImageView
+                    android:layout_gravity="center"
+                    android:src="@drawable/logo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <ImageButton
+                android:id="@+id/btnBack"
+                android:padding="10dp"
+                android:background="#00ffffff"
+                android:src="@drawable/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:scaleType="centerCrop"
+                android:id="@+id/imAvatar"
+                android:layout_gravity="bottom|center_horizontal"
+                android:src="@drawable/ic_launcher_background"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+        </FrameLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:textColor="#ef4b4c"
+                    style="?android:attr/textAppearanceMedium"
+                    android:text="Họ và tên:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/tvNamePro"
+                    android:padding="5dp"
+                    android:layout_marginLeft="30dp"
+                    style="?android:attr/textAppearanceMedium"
+                    android:text="Họ và tên:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:textColor="#ef4b4c"
+                    style="?android:attr/textAppearanceMedium"
+                    android:text="Mã nhân viên:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/tvIDPro"
+                    android:padding="5dp"
+                    android:layout_marginLeft="30dp"
+                    style="?android:attr/textAppearanceMedium"
+                    android:text="Họ và tên:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:textColor="#ef4b4c"
+                    style="?android:attr/textAppearanceMedium"
+                    android:text="Giới tính:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/tvSexPro"
+                    android:padding="5dp"
+                    android:layout_marginLeft="30dp"
+                    style="?android:attr/textAppearanceMedium"
+                    android:text="Họ và tên:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:textColor="#ef4b4c"
+                    style="?android:attr/textAppearanceMedium"
+                    android:text="Ngày sinh:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/tvDateOfBirthPro"
+                    android:padding="5dp"
+                    android:layout_marginLeft="30dp"
+                    style="?android:attr/textAppearanceMedium"
+                    android:text="Họ và tên:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:textColor="#ef4b4c"
+                    style="?android:attr/textAppearanceMedium"
+                    android:text="Quê quán:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/tvAddressPro"
+                    android:padding="5dp"
+                    android:layout_marginLeft="30dp"
+                    style="?android:attr/textAppearanceMedium"
+                    android:text="Họ và tên:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:textColor="#ef4b4c"
+                    style="?android:attr/textAppearanceMedium"
+                    android:text="Số điện thoại:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/tvPhonePro"
+                    android:padding="5dp"
+                    android:layout_marginLeft="30dp"
+                    style="?android:attr/textAppearanceMedium"
+                    android:text="Họ và tên:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:textColor="#ef4b4c"
+                    style="?android:attr/textAppearanceMedium"
+                    android:text="Ngày vào:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/tvDateStartPro"
+                    android:padding="5dp"
+                    android:layout_marginLeft="30dp"
+                    style="?android:attr/textAppearanceMedium"
+                    android:text="Họ và tên:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:textColor="#ef4b4c"
+                    style="?android:attr/textAppearanceMedium"
+                    android:text="Lương ngày:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/tvSalaryPro"
+                    android:padding="5dp"
+                    android:layout_marginLeft="30dp"
+                    style="?android:attr/textAppearanceMedium"
+                    android:text="Họ và tên:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+</LinearLayout>

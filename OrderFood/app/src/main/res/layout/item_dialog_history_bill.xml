@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        style="?android:attr/textAppearanceMedium"
+        android:padding="10dp"
+        android:id="@+id/tvNameItemDialog"
+        android:text="Tên"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginRight="10dp"
+        android:layout_gravity="right"
+        style="?android:attr/textAppearanceMedium"
+        android:padding="10dp"
+        android:id="@+id/tvCountItemDialog"
+        android:text="số lượng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</FrameLayout>
